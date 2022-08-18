@@ -83,3 +83,98 @@ button:hover {
   display: flex;
   justify-content: right;
 }
+
+@media only screen and (max-width: 1200px) {
+  .Main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./components/pic.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Inside_Main {
+    width: 35%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  input {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    border-bottom: 2px solid black;
+   
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .Main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./components/pic.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Inside_Main {
+    width: 65%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  input {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    border-bottom: 2px solid black;
+   
+  }
+}
+@media only screen and (max-width: 484px) {
+  .Main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./components/pic.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Inside_Main {
+    width: 70%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  input {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    border-bottom: 2px solid black;
+   
+  }
+}
